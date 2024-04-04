@@ -53,9 +53,9 @@ document.addEventListener('DOMContentLoaded', function () {
   
     // Close the modal when the user clicks outside of it
     window.addEventListener('click', function (e) {
-        if (e.target == modal) {
+        if (e.target == modal &&!e.target.closest('#modalContent')) {
             modal.style.display = 'none';
         }
     });
-    closeModal.style.cursor='pointer';
+    closeModal.style.cursor ='pointer';
 });
