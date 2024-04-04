@@ -58,4 +58,4 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
     closeModal.style.cursor ='pointer';
-});
+}); 
